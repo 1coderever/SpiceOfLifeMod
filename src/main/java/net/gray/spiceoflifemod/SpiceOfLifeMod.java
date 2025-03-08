@@ -1,6 +1,11 @@
 package net.gray.spiceoflifemod;
 
 import com.mojang.logging.LogUtils;
+import net.gray.spiceoflifemod.blocks.ModBlocks;
+import net.gray.spiceoflifemod.item.ModCreativeModTab;
+import net.gray.spiceoflifemod.item.ModItems;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -32,11 +37,15 @@ public class SpiceOfLifeMod
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
-
-
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModCreativeModTab.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -53,7 +62,18 @@ public class SpiceOfLifeMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-
+if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+    event.accept(ModItems.ALEXANDRITE);
+}
+    if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+        event.accept(ModItems.RAW_ALEXANDRITE);
+    }
+    if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+        event.accept(ModBlocks.ALEXANDRITE_BLOCK);
+    }
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
