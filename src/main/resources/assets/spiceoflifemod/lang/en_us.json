@@ -1,6 +1,7 @@
 {
   "item.spiceoflifemod.alexandrite" : "Alexandrite Gem",
   "item.spiceoflifemod.raw_alexandrite" : "Raw Alexandrite Gem",
+  "item.spiceoflifemod.chisel" : "Chisel",
   "block.spiceoflifemod.raw_alexandrite_block" : "Raw Alexandrite Block",
   "block.spiceoflifemod.alexandrite_block" : "Alexandrite Block",
   "block.spiceoflifemod.alexandrite_ore" : "Alexandrite Ore",
