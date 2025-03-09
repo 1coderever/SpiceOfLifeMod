@@ -1,8 +1,10 @@
 {
   "item.spiceoflifemod.alexandrite" : "Alexandrite Gem",
   "item.spiceoflifemod.raw_alexandrite" : "Raw Alexandrite Gem",
-  "blocks.spiceoflifemod.raw_alexandrite_block" : "Raw Alexandrite Block",
-  "blocks.spiceoflifemod.alexandrite_block" : "Alexandrite Block",
+  "block.spiceoflifemod.raw_alexandrite_block" : "Raw Alexandrite Block",
+  "block.spiceoflifemod.alexandrite_block" : "Alexandrite Block",
+  "block.spiceoflifemod.alexandrite_ore" : "Alexandrite Ore",
+  "block.spiceoflifemod.deepslate_alexandrite_ore" : "Deepslate Alexandrite Ore",
 
 
 

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "spiceoflifemod:alexandrite_block",
+    "spiceoflifemod:raw_alexandrite_block",
+    "spiceoflifemod:alexandrite_ore",
+    "spiceoflifemod:deepslate_alexandrite_ore"
+  ]
+}
