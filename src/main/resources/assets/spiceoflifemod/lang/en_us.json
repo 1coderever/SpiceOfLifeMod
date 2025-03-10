@@ -2,10 +2,22 @@
   "item.spiceoflifemod.alexandrite" : "Alexandrite Gem",
   "item.spiceoflifemod.raw_alexandrite" : "Raw Alexandrite Gem",
   "item.spiceoflifemod.chisel" : "Chisel",
+  "item.spiceoflifemod.kohlrabi" : "Kohlrabi",
+  "item.spiceoflifemod.aurora_ashes" : "Aurora Ashes",
   "block.spiceoflifemod.raw_alexandrite_block" : "Raw Alexandrite Block",
   "block.spiceoflifemod.alexandrite_block" : "Alexandrite Block",
   "block.spiceoflifemod.alexandrite_ore" : "Alexandrite Ore",
   "block.spiceoflifemod.deepslate_alexandrite_ore" : "Deepslate Alexandrite Ore",
+  "block.spiceoflifemod.magic_block" : "Magic Block",
+
+
+  "tooltip.spiceoflifemod.magic_block.tooltip": "This Block is Quite §9Magical§r",
+
+
+  "tooltip.spiceoflifemod.chisel.shift_down" : "This Item Changes Stone Blocks",
+
+  "tooltip.spiceoflifemod.chisel" : "Press §eShift§r for more Information!",
+  "tooltip.spiceoflifemod.kohlrabi": "This Tastes GREAT!",
 
 
 
